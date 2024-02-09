@@ -39,5 +39,5 @@ class Razlomak:
         return self+(-1)*other
     def __rsub__(self,other):
         return other*(-1)+self
-    def __rtruediv__(self,other):
-        
+    #def __rtruediv__(self,other):
+    
