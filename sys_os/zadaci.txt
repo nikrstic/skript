@@ -1,0 +1,18 @@
+"""
+Ukoliko je u zadatku potrebno uraditi neku operaciju nad fajlovima i nije drugacije naglaseno, podrazumeva se da se operacija izvrsava nad svim fajlovima / direktorijumima u stablu direktorijuma, pocev od radnog direktorijuma.
+
+Platformu na kojoj radite zadatke (windows, linux, macos) birate sami.
+
+1. Napisati program koji pronalazi sve fajlove sa zadatim imenom i stampa kompletne putanje do tih fajlova. Ime se unosi kao prvi parametar programa.
+
+2. Napisati program koji racuna i ispisuje koliko bajtova zauzima radni direktorijum (sa svim fajlovima i poddirektorijumima).
+
+3. Napisati program koji racuna za svaku ekstenziju, koliko ukupno ima fajlova u radnom direktorijumu i poddirektorijumima. Na izlazu ispisati (u posebnim redovima) ekstenziju i broj fajlova, u formatu
+ <ext1> : <no1>
+ <ext2> : <no2>
+ ...
+
+4. Napisati program koji formira direktorijum tmp_dat i sve .dat fajlove iz radnog direktorijuma prebacuje u tmp_dat direktorijum.
+
+5. Napisati program koji za dati pattern, pronalazi najveci fajl cije ime odgovara tom patternu, i kopira ga u direktorijum pod nazivom 'najveci_fajl' (napraviti direktorijum ako ne postoji). Ako ima vise fajlova iste velicine, kopirati proizvoljni. Pattern je oblika *.txt, *.py, i sl. i dat je kao prvi i jedini argument programa.
+"""

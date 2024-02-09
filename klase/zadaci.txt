@@ -1,0 +1,13 @@
+"""
+1. Definisati klasu Objekat koji ima konstruktor sa dva parametra x i y koji predstavljaju poziciju objekta u ravni. Implementirati property X i Y koji maskiraju vrednosti x i y kao i metodu ukupno_poziva koja vraca ukupan broj puta koliko su pozvani property-ji X i Y (bilo kao getter ili setter). Implementirati konverziju u string (u formatu po zelji). Napisati kratak test kod.
+
+2. Definisati klasu Krug koja nasledjuje klasu Objekat i ima 3 parametra, x, y i r (poluprecnik kruga). Implementirati property R, prilagoditi funkciju ukupno_poziva da racuna i pozive property-ja R. Implementirati metodu povrsina koja vraca povrsinu kruga po formuli r^2*pi. Konstantu pi uvesti iz biblioteke math.
+
+3. Definisati klasu UnionSet koja ima konstruktor sa jednim parametrom n (ceo broj) i koji inicijalizuje n skupova A_i tako da je A_i = {i}. Implementirati metode get_set(k) koja vraca indeks skupa A_i u kome se nalazi broj k, kao i operaciju union(k,l) koja formira uniju Au skupova A_i i A_j u kojima se nalaze brojevi k i l. Pritom ako je i<j, onda A_i:=Au dok se A_j brise. Ukoliko k i l pripadaju istom skupu, funkcija ne radi nista.
+
+4. Implementirati klasu ModP koja ima konstruktor sa dva parametra k i p, gde je p ceo prost broj (ako nije prost, konstruktor vraca exception). Klasa implementira operacije po modulu p (+, -, *).
+
+5. Implementirati dekorator podeli koji ima jedan parametar sep. Ovaj dekorator modifikuje funkciju koja vraca string, tako sto rezultat deli po separatoru sep i vraca listu dobijenih stringova.
+
+6. Implementirati iterator/generator Prosti koji generise proste brojeve.
+"""
